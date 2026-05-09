@@ -1,5 +1,6 @@
 import Sidebar from './components/Sidebar'
 import Topbar from './components/Topbar'
+import DashboardCards from './components/DashboardCards'
 
 import Navbar from './components/Navbar'
 
@@ -18,9 +19,14 @@ export default function Home() {
           </p>
         </div>
         <Navbar />
-       
+        <DashboardCards />
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-5">
           
-        
+
+         
+          
+        </div>
       </div>
     </div>
   )
