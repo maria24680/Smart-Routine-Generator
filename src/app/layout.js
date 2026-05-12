@@ -1,3 +1,4 @@
+import { RoutineProvider } from "@/context/RoutineContext";
 import './globals.css'
 
 export const metadata = {
@@ -7,9 +8,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className="bg-[#070B1D] text-white">
-        {children}
+  <html>
+      <body>
+        <RoutineProvider>
+          {children}
+        </RoutineProvider>
       </body>
     </html>
   )

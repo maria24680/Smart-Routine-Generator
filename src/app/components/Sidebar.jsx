@@ -8,6 +8,7 @@ import {
   Settings,
   ListTodo,
   Brain,
+  LogOut,
 } from 'lucide-react'
 
 const menu = [
@@ -15,11 +16,6 @@ const menu = [
     name: 'Dashboard',
     path: '/',
     icon: LayoutDashboard,
-  },
-  {
-    name: 'My Tasks',
-    path: '/tasks',
-    icon: ListTodo,
   },
   {
     name: 'My Routines',
@@ -40,6 +36,12 @@ const menu = [
     name: 'Settings',
     path: '/settings',
     icon: Settings,
+  },
+
+   {
+    name: 'Log-Out',
+    path: '/Register',
+    icon: LogOut,
   },
 ]
 
