@@ -26,6 +26,7 @@ const Login = () => {
       await authClient.signIn.email({
         email,
         password,
+        
       });
 
       toast.success("Welcome Back!");

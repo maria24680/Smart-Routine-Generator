@@ -40,7 +40,7 @@ const menu = [
 
    {
     name: 'Log-Out',
-    path: '/Register',
+    path: '/register',
     icon: LogOut,
   },
 ]

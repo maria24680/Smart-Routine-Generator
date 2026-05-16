@@ -34,6 +34,7 @@ export default function RegisterPage() {
         email,
         image,
         password,
+        callbackURL: "/login",
       });
 
       toast.success("Account created successfully!");

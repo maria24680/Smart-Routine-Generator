@@ -13,7 +13,6 @@ export default function Navbar() {
 
   const navItems = [
     { name: "Dashboard", path: "/" },
-    { name: "Tasks", path: "/tasks" },
     { name: "Routines", path: "/routines" },
     { name: "Calendar", path: "/calendar" },
     { name: "Progress", path: "/progress" },
